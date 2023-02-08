@@ -9,10 +9,7 @@
   👉 I enjoy going to the gym, hiking, swimming, and playing basketball.🏋️⛰️🤿🏀 <br>
   👉 I hope to be a developer who continues to develop.🌟
   </div>
-
-
-
-
+<br>
 
 
 ### 🧠Skills
