@@ -23,7 +23,9 @@
 <div><img src="https://img.shields.io/badge/Spring-61DAFB?style=flat&logo=#6DB33F&logoColor=green"/></div>
 <br>
 <br>
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=깃허브아이디&show_icons=true&theme=radical) </div>
+<div>
+  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=깃허브아이디&show_icons=true&theme=radical) 
+</div>
 
 
 <!--
