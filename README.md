@@ -26,9 +26,9 @@
 <br>
 <br>
 
-<div> 
+<!-- <div> 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=sjmun09)](https://solved.ac/sjmun09)<br/>
-</div>
+</div> -->
 
 
 
