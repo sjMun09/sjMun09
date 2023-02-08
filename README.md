@@ -1,8 +1,10 @@
+<!-- 방문
 <div>
 <p align = "right">
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svgurl=https%3A%2F%2Fgithub.com%2FsjMun09&count_bg=%2305E0D9&title_bg=%23E2CACA&icon=probot.svg&icon_clor=%230522EC&title=Guest&edge_flat=false)](https://hits.seeyoufarm.com)
 </p>
 </div>
+ -->
 <div>
   👋 Hi there ! I'm hoping for a web developer.👨🏻‍💻 <br>
 
@@ -23,10 +25,11 @@
 <div><img src="https://img.shields.io/badge/Spring-61DAFB?style=flat&logo=#6DB33F&logoColor=green"/></div>
 <br>
 <br>
+<!-- Github stats
 <div>
   ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true&theme=radical) 
 </div>
-
+-->
 
 <!--
 **sjMun09/sjMun09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
