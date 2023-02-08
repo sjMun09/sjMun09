@@ -1,4 +1,9 @@
 <div>
+<p align = "right">
+	[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FsjMun09&count_bg=%2305E0D9&title_bg=%23E2CACA&icon=probot.svg&icon_color=%230522EC&title=Guest&edge_flat=false)](https://hits.seeyoufarm.com)
+</p>
+</div>
+<div>
   👋 Hi there ! I'm hoping for a web developer.👨🏻‍💻 <br>
 
   👉 Please advise me if you sometimes post the wrong development.<br>
