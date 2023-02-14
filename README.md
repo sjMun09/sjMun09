@@ -37,7 +37,7 @@
 
 <div>
 <!-- <a><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sjMun09&layout=compact"/></a><br><br>-->
-<a><img  src="https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true" align="center"/>&nbsp;<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=ohoh7391" align="center"></a>
+<a><img  src="https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true" align="center"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=ohoh7391" align="center"></a>
 </div>
 
 <br>
