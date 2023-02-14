@@ -20,9 +20,17 @@
 
 
 ### 🧠Skills
-<div>Languages & Tools & Platforms </div>
-<br>
-<div><img src="https://img.shields.io/badge/Spring-61DAFB?style=flat&logo=#6DB33F&logoColor=green"/></div>
+<div>Languages & Tools & Platforms
+<br><br>
+
+<a><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/></a>&nbsp;
+<a><img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/></a>&nbsp;
+<a><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"/></a>&nbsp;
+<a><img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"></a>&nbsp;
+<a><img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"></a>&nbsp;
+<a><img src="https://img.shields.io/badge/-A8B9CC?style=for-the-badge&logo=C&logoColor=white"></a>&nbsp;
+
+</div>
 <br>
 <br>
 
@@ -45,6 +53,13 @@
 -->
 
 <!--
+
+<img src="https://img.shields.io/badge/Spring-61DAFB?style=flat&logo=#6DB33F&logoColor=green"/>&nbsp;&nbsp;
+                                             아이콘 넘버                아이콘이름
+
+https://img.shields.io/badge/{출력되는 이름}-{색깔}?style={모양}&logo={출력되는 로고 이름}&logoColor={로고 색깔}
+
+
 **sjMun09/sjMun09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
