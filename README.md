@@ -44,6 +44,12 @@ Languages & Tools & Platforms
 <br>
 <br>
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/dkssud8150/github-stats-transparent/output/generated/languages.svg" width="49.2%"  /></p>
+
+<br>
+<br>
+
 <h3 align="center">🙇‍♂️ Follow Me 🙇‍</h3>
 <p align="center">
   <a href="https://velog.io/@ohoh7391"><img src="https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@ohoh7391"/></a>&nbsp
@@ -53,10 +59,6 @@ Languages & Tools & Platforms
 <br>
 <br>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/dkssud8150/github-stats-transparent/output/generated/languages.svg" width="49.2%"  /></p>
-<br>
-<br>
 
 <p align="center">
 <!--  <img src=https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true&theme=radical width="49.2%"  />  -->
