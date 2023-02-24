@@ -54,7 +54,7 @@ Languages & Tools & Platforms
 
 <br>
 <br>
-<h3 align="center">💁‍♂️ Algorithm 🏃‍♂️🧑‍💻</h3>
+<h3 align="center">💁‍♂️ Algorithm 🧑‍💻 🏃</h3>
 <p align="center">
 <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=ohoh7391" width="49.2%" /></p>
 
