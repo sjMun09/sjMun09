@@ -36,13 +36,34 @@ Languages & Tools & Platforms
 
 
 
-<div>
+
+
+<!-- <div>
 <!-- <a><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sjMun09&layout=compact"/></a><br><br>-->
-<a><img  src="https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true" align="center"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=ohoh7391" align="center"></a>
-</div>
+<!-- <a><img  src="https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true" align="center"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=ohoh7391" align="center"></a>
+</div> --> 
+
+
+<br>
+
+
+<p align="center">
+ <img src=https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true&theme=radical width="49.2%"  /> </p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/dkssud8150/github-stats-transparent/output/generated/languages.svg" width="49.2%"  /></p>
+
 
 <br>
 <br>
+<h3 align="center">💁‍♂️ Algorithm 🏃‍♂️🧑‍💻</h3>
+<p align="center">
+<img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=ohoh7391" width="49.2%" /></p>
+
+<br>
+<br>
+
+
 
 <h3 align="center">🙇‍♂️ Follow Me 🙇‍</h3>
 <p align="center">
@@ -53,18 +74,10 @@ Languages & Tools & Platforms
 <br>
 <br>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/dkssud8150/github-stats-transparent/output/generated/languages.svg" width="49.2%"  /></p>
-
-<br>
-<br>
 
 
-<p align="center">
-<!--  <img src=https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true&theme=radical width="49.2%"  />  -->
 <!-- <img src=http://mazassumnida.wtf/api/generate_badge?boj=sjmun09)](https://solved.ac/sjmun09 width="49.2%"  /> -->
- 
- </p>
+
  
  
  
