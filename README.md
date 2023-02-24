@@ -44,18 +44,18 @@ Languages & Tools & Platforms
 <br>
 <br>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/dkssud8150/github-stats-transparent/output/generated/languages.svg" width="49.2%"  /></p>
-
-<br>
-<br>
-
 <h3 align="center">🙇‍♂️ Follow Me 🙇‍</h3>
 <p align="center">
   <a href="https://velog.io/@ohoh7391"><img src="https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@ohoh7391"/></a>&nbsp
 <!--   <a href="https://www.instagram.com/dev.dobby/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/hye_inisfree/"/></a>&nbsp -->
   <a href="mailto:ohoh7391@naver.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=ohoh7391@nvaer.com"/></a>
 </p>
+<br>
+<br>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/dkssud8150/github-stats-transparent/output/generated/languages.svg" width="49.2%"  /></p>
+
 <br>
 <br>
 
