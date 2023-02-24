@@ -48,9 +48,7 @@ Languages & Tools & Platforms
 
 
 <p align="left">
- <img src=https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true&theme=radical width="49.2%"  /> </p>
-
-<p align="right">
+ <img src=https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true&theme=radical width="49.2%"  /> &nbsp;
 <img src="https://raw.githubusercontent.com/dkssud8150/github-stats-transparent/output/generated/languages.svg" width="49.2%"  /></p>
 
 
