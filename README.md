@@ -19,7 +19,7 @@
   👉 I hope to be a developer who continues to develop.🌟</p>
 <br>
 
-<h3 align="center">💁‍♂️ Tech Skills 🙆‍♂️</h3>
+<h3 align="center">💁‍♂️ Tech Stack 🙆‍♂️</h3>
 <p align="center">
 Languages & Tools & Platforms
 <br><br>
