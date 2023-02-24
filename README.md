@@ -5,31 +5,32 @@
 </p>
 </div>
  -->
-<div>
-  👋 Hi there ! I'm hoping for a web developer.👨🏻‍💻 <br>
-
+<p align="center">
+  👋 Hi there ! I'm hoping for a web developer.👨🏻‍💻 <br></p>
+<p align="center">
   👉 Please advise me if you sometimes post the wrong development.<br>
      My strength is that I listen to others well and learn constantly.<br> 
-     I look forward to your kind cooperation.😊
-  
+     I look forward to your kind cooperation.😊</p>
+  <p align="center">
  <br>
-  👉 I enjoy going to the gym, hiking, swimming, and playing basketball.🏋️⛰️🤿🏀 <br>
-  👉 I hope to be a developer who continues to develop.🌟
-  </div>
+  👉 I enjoy going to the gym, hiking, swimming, <br>and playing basketball.🏋️⛰️🤿🏀 
+ <br> </p>
+ <p align="center">
+  👉 I hope to be a developer who continues to develop.🌟</p>
 <br>
 
-
-### 🧠Skills
-<div>Languages & Tools & Platforms
+<h3 align="center">🧠 Skills 🧠</h3>
+<p align="center">
+Languages & Tools & Platforms
 <br><br>
-
+<p align="center">
 <a><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/></a>&nbsp;
 <a><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"/></a>&nbsp;
 <a><img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"></a>&nbsp;
 <a><img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"></a>&nbsp;
 <a><img src="https://img.shields.io/badge/-A8B9CC?style=for-the-badge&logo=C&logoColor=white"></a>&nbsp;
 
-</div>
+</p>
 <br>
 <br>
 
@@ -43,8 +44,17 @@
 <br>
 <br>
 
+<h3 align="center">🌈 Follow Me 🌈</h3>
+<p align="center">
+  <a href="https://velog.io/@hyeinisfree"><img src="https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@hyeinisfree"/></a>&nbsp
+  <a href="https://www.instagram.com/dev.dobby/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/hye_inisfree/"/></a>&nbsp
+  <a href="mailto:ohoh73910@naver.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=ohoh7391@nvaer.com"/></a>
+</p>
+<br>
+<br>
 
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/dkssud8150/github-stats-transparent/output/generated/languages.svg" width="49.2%"  /></p>
 
 <!-- <div> 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=sjmun09)](https://solved.ac/sjmun09)<br/>
