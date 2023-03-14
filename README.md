@@ -5,6 +5,9 @@
 </p>
 </div>
  -->
+ 
+ <p align="center"><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FsjMun09&count_bg=%23076EEB&title_bg=%23CA1515&icon=ghostery.svg&icon_color=%23F0F4F7&title=Guest&edge_flat=false"/></a>
+   <br></p>
 <p align="center">
   👋 Hi there ! I'm hoping for a web developer.👨🏻‍💻 <br></p>
 <p align="center">
