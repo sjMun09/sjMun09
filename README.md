@@ -1,3 +1,5 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&text=%20SEONGJUN%20%20&height=200&fontSize=90&fontColor=ffffff)
+
 <!-- 방문
 <div>
 <p align = "right">
@@ -82,6 +84,7 @@ Languages & Tools & Platforms
 <br>
 <br>
 
+![footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=7F7FD5)
 
 
 <!--[![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:ohoh7391@naver.com)](mailto:ohoh7391@naver.com) -->
