@@ -38,8 +38,10 @@ Languages & Tools & Platforms
 <a><img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"></a>&nbsp;
 <a><img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"></a>&nbsp; <br>
 <a><img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"></a>&nbsp;
- <a><img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"></a>&nbsp;
-
+ <a><img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"></a>&nbsp;<br>
+ <a><img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white"></a>&nbsp;
+ <a><img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white"></a>&nbsp;
+ <a><img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white"></a>&nbsp;
 
 </p>
 <br>
@@ -112,7 +114,7 @@ Languages & Tools & Platforms
 
 <img src="https://img.shields.io/badge/Spring-61DAFB?style=flat&logo=#6DB33F&logoColor=green"/>&nbsp;&nbsp;
                                              아이콘 넘버                아이콘이름
-
+<img alt="이미지명" src ="https://img.shields.io/badge/메시지-색상코드.svg?&style=for-the-badge&logo=로고명&logoColor=로고컬러"/>
 https://img.shields.io/badge/{출력되는 이름}-{색깔}?style={모양}&logo={출력되는 로고 이름}&logoColor={로고 색깔}
 
 
