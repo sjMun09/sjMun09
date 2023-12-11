@@ -26,10 +26,14 @@
 
 <h3 align="center">💁‍♂️ Tech Stack 🙆‍♂️</h3>
 <p align="center">
-Languages & Tools & Platforms
-<br><br>
-<p align="center">
-<a><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"/></a>&nbsp;
+<b><i>Languages & Tools & Platforms</p></b></i>
+ <p align="center"> <i>most used</i> <br>
+  <a><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"/></a>&nbsp;
+ <a><img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white"></a>&nbsp;
+ <a><img src="https://img.shields.io/badge/kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"></a>&nbsp;
+
+  </p>
+<p align="center"><i> have used</i><br>
 <a><img src="https://img.shields.io/badge/-A8B9CC?style=for-the-badge&logo=C&logoColor=white"></a>&nbsp;
 <a><img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=Cplusplus&logoColor=white"></a>&nbsp;
  <br>
@@ -38,11 +42,9 @@ Languages & Tools & Platforms
 <a><img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"></a>&nbsp; <br>
 <a><img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"></a>&nbsp;
  <a><img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"></a>&nbsp;<br>
- <a><img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white"></a>&nbsp;
  <a><img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white"></a>&nbsp;
  <a><img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white"></a>&nbsp;<br>
   <a><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"></a>&nbsp;
- <a><img src="https://img.shields.io/badge/kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"></a>&nbsp;
 </p>
 <br>
 <br>
