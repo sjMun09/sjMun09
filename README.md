@@ -59,16 +59,19 @@
 </div> --> 
 
 
+
+
+<!--
+해당 부분이 그 랭크 알려주는 거였는데 오류 떄문에 제대로 안보여서 주석처리함.
 <br>
-
-
 <p align="left">
  <img src=https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true&theme=radical width="49.2%"  /> &nbsp;
 <img src="https://raw.githubusercontent.com/dkssud8150/github-stats-transparent/output/generated/languages.svg" width="49.2%"  /></p>
-
-
 <br>
 <br>
+--> 
+
+
 <h3 align="center">💁‍♂️ Algorithm 🧑‍💻 🏃</h3>
 <p align="center">
 <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=ohoh7391" width="49.2%" /></p>
