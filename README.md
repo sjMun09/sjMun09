@@ -16,10 +16,13 @@
   👉 Please advise me if you sometimes post the wrong development.<br>
      My strength is that I listen to others well and learn constantly.<br> 
      I look forward to your kind cooperation.😊</p>
+ <!-- 
+ 주석 처리했음 취미는 필요없을 것 같아서,
   <p align="center">
  <br>
   👉 I enjoy going to the gym, hiking, swimming, <br>and playing basketball.🏋️⛰️🤿🏀 
  <br> </p>
+ -->
  <p align="center">
   👉 I hope to be a developer who continues to develop.🌟</p>
 <br>
