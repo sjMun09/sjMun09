@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&text=%20Welcome!%20%20&height=200&fontSize=90&fontColor=ffffff)
+![header](https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&text=%20Welcome&nbsp;sjMun09&nbsp;😁%20%20&height=200&fontSize=40&fontColor=ffffff)
 
 <!-- 방문
 <div>
