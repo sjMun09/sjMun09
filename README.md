@@ -13,7 +13,7 @@
    <br></p>
    <!-- hoping for a web developer -->
 <p align="left">
-  👋 Hi there ! 👋  <br> 🌟 While my primary focus is on developing Spring Boot backend web applications, my ultimate goal is to evolve into a developer who is versatile across different programming languages and frameworks.👨🏻‍💻 <br></p>
+  👋 Hi there ! 👋  <br> 🌟 While my primary focus is on developing Spring Boot backend web applications, <br>my ultimate goal is to evolve into a developer who is versatile across different programming languages and frameworks.👨🏻‍💻 <br></p>
 <!--<p align="left">
   👉 Please advise me if you sometimes post the wrong development.<br>
      My strength is that I listen to others well and learn constantly.<br> 
