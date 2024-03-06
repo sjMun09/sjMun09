@@ -1,4 +1,5 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&text=%20Welcome&nbsp;sjMun09&nbsp;😁%20%20&height=200&fontSize=40&fontColor=ffffff)
+<!-- 물결삭제
+![header](https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&text=%20Welcome&nbsp;sjMun09&nbsp;😁%20%20&height=200&fontSize=40&fontColor=ffffff) -->
 
 <!-- 방문
 <div>
@@ -10,33 +11,34 @@
  
  <p align="right"><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FsjMun09&count_bg=%23076EEB&title_bg=%23CA1515&icon=ghostery.svg&icon_color=%23F0F4F7&title=Guest&edge_flat=false"/></a>
    <br></p>
-<p align="center">
+<p align="left">
   👋 Hi there ! 👋  <br> 🌟 I'm hoping for a web developer.👨🏻‍💻 <br></p>
-<p align="center">
+<!--<p align="left">
   👉 Please advise me if you sometimes post the wrong development.<br>
      My strength is that I listen to others well and learn constantly.<br> 
-     I look forward to your kind cooperation.😊</p>
+     I look forward to your kind cooperation.😊</p>-->
  <!-- 
  주석 처리했음 취미는 필요없을 것 같아서,
-  <p align="center">
+  <p align="left">
  <br>
   👉 I enjoy going to the gym, hiking, swimming, <br>and playing basketball.🏋️⛰️🤿🏀 
  <br> </p>
  -->
- <p align="center">
+ <p align="left">
   👉 I hope to be a developer who continues to develop.🌟</p>
 <br>
-
-<h3 align="center">💁‍♂️ Tech Stack 🙆‍♂️</h3>
-<p align="center">
+<!--
+<h3 align="left">💁‍♂️ Tech Stack 🙆‍♂️</h3>
+<p align="left">
 <b><i>Languages & Tools & Platforms</p></b></i>
- <p align="center"> <i>most used</i> <br>
+ <p align="left"> <i>most used</i> <br>
   <a><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"/></a>&nbsp;
  <a><img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white"></a>&nbsp;
  <a><img src="https://img.shields.io/badge/kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"></a>&nbsp;
 
   </p>
-<p align="center"><i> have used</i><br>
+  
+<p align="left"><i> have used</i><br>
 <a><img src="https://img.shields.io/badge/-A8B9CC?style=for-the-badge&logo=C&logoColor=white"></a>&nbsp;
 <a><img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=Cplusplus&logoColor=white"></a>&nbsp;
  <br>
@@ -48,9 +50,11 @@
  <a><img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white"></a>&nbsp;
  <a><img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white"></a>&nbsp;<br>
   <a><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"></a>&nbsp;
-</p>
+</p> 
+  <br>
 <br>
-<br>
+  -->
+
 
 
 
@@ -75,15 +79,16 @@
 --> 
 
 
-<h3 align="center">💁‍♂️ Algorithm 🧑‍💻 🏃</h3>
-<p align="center">
+<h3 align="left">💁‍♂️ Algorithm 🧑‍💻 🏃</h3>
+<p align="left">
 <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=ohoh7391" width="49.2%" /></p>
 
+<!--
 <br>
+<br> -->
+
+
 <br>
-
-
-
 <h3 align="center">🙇‍♂️ Follow Me 🙇‍</h3>
 <p align="center">
   <a href="https://velog.io/@ohoh7391"><img src="https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@ohoh7391"/></a>&nbsp
@@ -94,7 +99,7 @@
 <br>
 <br>
 
-![footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=7F7FD5)
+<!-- ![footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=7F7FD5) -->
 
 
 <!--[![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:ohoh7391@naver.com)](mailto:ohoh7391@naver.com) -->
