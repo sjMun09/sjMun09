@@ -1,149 +1,56 @@
-<!-- 물결삭제
-![header](https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&text=%20Welcome&nbsp;sjMun09&nbsp;😁%20%20&height=200&fontSize=40&fontColor=ffffff) -->
+# Moonseongjun / 문성준
 
-<!--    방문
-<div>
-<p align = "right">
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svgurl=https%3A%2F%2Fgithub.com%2FsjMun09&count_bg=%2305E0D9&title_bg=%23E2CACA&icon=probot.svg&icon_clor=%230522EC&title=Guest&edge_flat=false)](https://hits.seeyoufarm.com)
-</p>
-</div>
- -->
- 
- <!--<p align="right"><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FsjMun09&count_bg=%23076EEB&title_bg=%23CA1515&icon=ghostery.svg&icon_color=%23F0F4F7&title=Guest&edge_flat=false"/></a>
-   <br></p>-->
-   <!-- hoping for a web developer -->
-<p align="left">
-  👋 Hi there ! 👋  <br> 🌟 While my primary focus is on developing Spring Boot backend web applications, <br>my ultimate goal is to evolve into a developer who is versatile across different programming languages and frameworks.👨🏻‍💻 <br></p>
-<!--<p align="left">
-  👉 Please advise me if you sometimes post the wrong development.<br>
-     My strength is that I listen to others well and learn constantly.<br> 
-     I look forward to your kind cooperation.😊</p>-->
- <!-- 
- 주석 처리했음 취미는 필요없을 것 같아서,
-  <p align="left">
- <br>
-  👉 I enjoy going to the gym, hiking, swimming, <br>and playing basketball.🏋️⛰️🤿🏀 
- <br> </p>
- -->
- <p align="left">
-  👉 I hope to be a developer who continues to develop.🌟</p>
+### AI/AX Backend Engineer | LLM Application · RAG · MCP
 
-<!-- 
-<br>
-<h3 align="left">💁‍♂️ Tech Stack 🙆‍♂️</h3>
-<p align="left">
-<b><i>Languages & Tools & Platforms</p></b></i>
- <p align="left"> <i>most used</i> <br>
-  <a><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"/></a>&nbsp;
- <a><img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white"></a>&nbsp;
- <a><img src="https://img.shields.io/badge/kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"></a>&nbsp;
+I build AI applications that connect domain documents and live business data.
+My background is DBA and MES backend development, so I care about the data model, source provenance, evaluation, permissions, and operational boundaries behind an LLM response.
 
-  </p>
-  
-<p align="left"><i> have used</i><br>
-<a><img src="https://img.shields.io/badge/-A8B9CC?style=for-the-badge&logo=C&logoColor=white"></a>&nbsp;
-<a><img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=Cplusplus&logoColor=white"></a>&nbsp;
- <br>
-<a><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/></a>&nbsp;
-<a><img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"></a>&nbsp;
-<a><img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"></a>&nbsp; <br>
-<a><img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"></a>&nbsp;
- <a><img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"></a>&nbsp;<br>
- <a><img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white"></a>&nbsp;
- <a><img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white"></a>&nbsp;<br>
-  <a><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"></a>&nbsp;
-</p> 
-  <br>
-<br>
-  -->
+## Current Focus
 
+- **RAG evaluation and retrieval quality**
+  Built a 50-question MES golden-set harness with Hit@5, MRR, RAGAS, and latency tracking. In a controlled dense-only vs. hybrid comparison, Hit@5 moved from `0.220` to `0.660`, while latency increased from `9.624s` to `12.728s`. This is a retrieval result, not a generic answer-accuracy claim.
 
+- **MES RAG + MCP applications**
+  Separated document-grounded questions from live MES queries. Implemented natural-language access for material issue, net demand, work order, process inspection, inventory, and closing domains, including dynamic date parameters, multi-domain calls, and related-screen navigation.
 
+- **Reliable LLM application paths**
+  Worked on document-aware chunking, content-hash deduplication, embedding-space isolation, semantic cache, reranker fallback, stage-level latency diagnostics, and prevention of provider-error text entering the knowledge base.
 
+- **Data and delivery foundations**
+  Experience with PostgreSQL, Oracle, Liquibase, Spring Boot/MyBatis, Jenkins, Ansible, Docker, Grafana, and OpenTelemetry. I use these foundations to make AI workflows reviewable and repeatable.
 
+## Selected Work
 
-<!-- <div>
-<!-- <a><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sjMun09&layout=compact"/></a><br><br>-->
-<!-- <a><img  src="https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true" align="center"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=ohoh7391" align="center"></a>
-</div> --> 
+| Area | What I worked on |
+| --- | --- |
+| MES RAG Evaluation | Implemented an evaluation harness and expanded an MES golden set to 50 questions. Compared retrieval paths with Hit@5, MRR, RAGAS, and latency instead of relying on subjective chat quality. |
+| RAG Pipeline | Built document ingestion and retrieval improvements: structure-preserving chunking, duplicate prevention, multi-embedding isolation, reranker fallback, and failure-path diagnostics. |
+| MES MCP | Extended seven MES data-query areas and orchestrated multi-domain tool calls with dynamic date/closing-month parameters. |
+| MES Backend / DB | Implemented dynamic planning SQL with Spring Boot, MyBatis, and FreeMarker. Contributed to Liquibase multi-tenant structure and PostgreSQL migration work. |
+| Delivery / Observability | Implemented Backend deployment role/playbooks and contributed to CI/CD, runtime configuration, Grafana, OpenTelemetry, Loki, Tempo, and alert improvements. |
 
+## Public Project
 
+- **[MES Document MCP](https://github.com/sjMun09/MES-mcp)**
+  A guarded MCP server for Excel, PDF, Word, Markdown, and CSV documents used in MES workflows. It preserves source provenance through `DocumentIR`, proposes changes through `PatchIR`, requires dry-run and approval before writes, and validates exported artifacts.
+  I used AI coding agents while personally defining the requirements, safety policy, test criteria, and release validation.
 
+## Tech Stack
 
-<!--
-해당 부분이 그 랭크 알려주는 거였는데 오류 떄문에 제대로 안보여서 주석처리함.
-<br>
-<p align="left">
- <img src=https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true&theme=radical width="49.2%"  /> &nbsp;
-<img src="https://raw.githubusercontent.com/dkssud8150/github-stats-transparent/output/generated/languages.svg" width="49.2%"  /></p>
-<br>
-<br>
---> 
+**LLM Application**
+Python, FastAPI, RAG, MCP, RAGAS, pgvector, hybrid retrieval, reranking, embedding, SSE
 
+**Backend / Database**
+Java, Spring Boot, MyBatis, FreeMarker, PostgreSQL, Oracle, Liquibase, SQL
 
-<h3 align="left">💁‍♂️ Algorithm 🧑‍💻 🏃</h3>
-<p align="left">
-<img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=ohoh7391" width="49.2%" /></p>
+**Delivery / Observability**
+Docker, Jenkins, Ansible, Linux, Grafana, OpenTelemetry, Loki, Tempo, Mimir
 
-<!--
-<br>
-<br> -->
+## Writing
 
+- TechLog: [sj-techlog.pages.dev](https://sj-techlog.pages.dev)
+- GitHub: [github.com/sjMun09](https://github.com/sjMun09)
 
+## Contact
 
-<h3 align="left">🙇‍♂️ Follow Me 🙇‍</h3>
-<p align="left">
-  <a href="https://velog.io/@ohoh7391"><img src="https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@ohoh7391"/></a>&nbsp
-<!--   <a href="https://www.instagram.com/dev.dobby/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/hye_inisfree/"/></a>&nbsp -->
-  <a href="mailto:ohoh3136@gmail.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=ohoh3136@gmail.com"/></a> &nbsp
- <a href="mailto:ohoh7391@naver.com"><img src="https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:ohoh7391@naver.com"></a>
-</p>
-<!--
-<br>
-<br> -->
-
-<!-- ![footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=7F7FD5) -->
-
-
-<!--[![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:ohoh7391@naver.com)](mailto:ohoh7391@naver.com) -->
-
-<!-- <img src=http://mazassumnida.wtf/api/generate_badge?boj=sjmun09)](https://solved.ac/sjmun09 width="49.2%"  /> -->
-
- 
- 
- 
- 
-<!-- <div> 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=sjmun09)](https://solved.ac/sjmun09)<br/>
-</div> -->
-
-
-
-
-<!-- Github stats
-<div>
-  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sjMun09&show_icons=true&theme=radical) 
-</div>
--->
-
-<!--
-
-<img src="https://img.shields.io/badge/Spring-61DAFB?style=flat&logo=#6DB33F&logoColor=green"/>&nbsp;&nbsp;
-                                             아이콘 넘버                아이콘이름
-<img alt="이미지명" src ="https://img.shields.io/badge/메시지-색상코드.svg?&style=for-the-badge&logo=로고명&logoColor=로고컬러"/>
-https://img.shields.io/badge/{출력되는 이름}-{색깔}?style={모양}&logo={출력되는 로고 이름}&logoColor={로고 색깔}
-
-
-**sjMun09/sjMun09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Email: [ohoh7391@naver.com](mailto:ohoh7391@naver.com)
