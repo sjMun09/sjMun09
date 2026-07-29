@@ -1,10 +1,10 @@
 # 문성준 | Moonseongjun
 
-### AI/AX Backend Engineer
+### AI/AX Backend Engineer with DBA · MES Data Experience
 
 `LLM Application` `RAG` `MCP` `MES Data` `Backend / DBA`
 
-MES 문서와 실시간 생산 데이터를 RAG·MCP로 연결하고, 검색 평가부터 실패 처리·배포·관측까지 구현합니다.
+Oracle→PostgreSQL 전환과 MES 업무 SQL에서 시작해, 문서와 실시간 생산 데이터를 RAG·MCP로 연결했습니다. 검색 평가부터 실패 처리·배포·DB 관측까지 구현합니다.
 
 [![TechLog](https://img.shields.io/badge/TechLog-sj--techlog.pages.dev-2563EB?style=flat-square)](https://sj-techlog.pages.dev)
 [![MES Document MCP](https://img.shields.io/badge/GitHub-MES%20Document%20MCP-181717?style=flat-square&logo=github)](https://github.com/sjMun09/MES-mcp)
@@ -12,9 +12,9 @@ MES 문서와 실시간 생산 데이터를 RAG·MCP로 연결하고, 검색 평
 
 ## About
 
-공식 직무는 DBA였습니다. MES의 데이터 구조, SQL, 프로시저와 업무 흐름을 다룬 뒤 그 기반을 AI application으로 확장했습니다.
+공식 직무는 DBA였습니다. Oracle 기반 MES를 PostgreSQL로 전환하는 팀 작업에 참여했고, Liquibase 변경 관리, 멀티테넌트 스키마, 업무 SQL과 백업·복구 전략을 다뤘습니다. 이 과정에서 익힌 데이터 구조와 프로시저를 RAG 지식문서와 MCP 조회 도구의 기준으로 사용했습니다.
 
-문서에서 찾아야 할 절차·업무 규칙은 RAG로, 현재 재고·작업·품질·마감 상태는 MCP로 분리합니다. LLM의 답변을 감으로 평가하지 않고 같은 질문셋으로 검색 품질과 지연시간을 비교합니다. 데이터 권한, 근거 추적, read-only 경계와 실패 경로까지 포함해야 현장에서 쓸 수 있는 AI라고 생각합니다.
+AI로 방향을 바꾸면서 DBA 경험을 버린 것이 아닙니다. DB 변경의 재현성, 테넌트 경계, 데이터 정합성, 복구 가능성을 LLM application에도 그대로 적용했습니다. 문서에서 찾을 절차·업무 규칙은 RAG로, 현재 재고·작업·품질·마감 상태는 read-only MCP로 분리합니다.
 
 **지원 방향**: LLM Application Engineer · AI/AX Backend Engineer · 제조 AI Solution Engineer
 
@@ -33,6 +33,9 @@ MES 문서와 실시간 생산 데이터를 RAG·MCP로 연결하고, 검색 평
 
 **DBA · 2025.11 - 2026.08.21 종료 예정**
 
+- **Oracle→PostgreSQL 전환**: 팀 전환 작업에 참여했습니다. Liquibase 멀티테넌트 구조, 환경별 schema hardcoding·checksum 문제, 설정·감사 스키마 changeset을 담당했습니다.
+- **DB 변경 관리**: 테이블·제약조건·함수·프로시저·뷰의 의존 순서와 changelog 구성을 다루고, dev·qa·main에서 같은 변경을 재현할 수 있도록 schema prefix와 include 순서를 점검했습니다.
+- **백업·복구 전략**: 현재 규모에는 pg_dump가 적합하다고 판단하고 DB 단위 복구와 검증 절차를 문서화했습니다. WAL/PITR과 pgBackRest는 단계적 도입 방향을 검토했으며 구축 완료 성과로 표기하지 않습니다.
 - **RAG 평가 체계**: MES 50문항 골든셋과 Hit@5, MRR, RAGAS, latency 평가 하네스를 구현했습니다. 실제 서비스의 RAG 처리 함수를 호출해 offline 평가와 서비스 경로 차이를 줄였습니다.
 - **AI 데이터 파이프라인**: 18개 MES 화면의 프론트 코드, MyBatis SQL, 프로시저, 테이블과 사용자 가이드를 대조해 지식문서 51건을 구성했습니다. 필수값·기본값·필터 조건 불일치 22건을 식별하고 교정했습니다.
 - **RAG 신뢰성**: 표·코드 블록을 보호하는 청킹, content hash 중복 차단, 임베딩 모델별 벡터 공간 격리, semantic cache, reranker fallback과 단계별 latency 진단을 구현했습니다.
@@ -49,6 +52,19 @@ MES 문서와 실시간 생산 데이터를 RAG·MCP로 연결하고, 검색 평
 - **설계·검토**: pg_dump와 pgBackRest/PITR 도입 방향, GraphRAG 단계적 도입 타당성
 
 </details>
+
+## Database / DBA Engineering
+
+| 영역 | 수행 내용 | 기여 경계 |
+| --- | --- | --- |
+| DB Migration | Oracle 전용 날짜·문자열·null 처리, JDBC/NLS 의존, MyBatis SQL과 프로시저의 PostgreSQL 전환 및 화면 동작 검증 | 전체 전환은 팀 작업 |
+| Schema Change | Liquibase 멀티테넌트 구조, schema hardcoding·checksum 문제, 설정·감사 스키마 changeset과 changelog 순서 관리 | 담당 범위 직접 수행 |
+| MES SQL | 수요·생산·자재소요·발주 데이터를 일·주·월·부분주로 조회하는 MyBatis + FreeMarker 동적 SQL 구현 | 직접 구현 |
+| Data Integrity | 허용 컬럼 whitelist, parameter binding, 기간 경계, subtotal·total, null·반올림과 upsert 조건을 서버에서 처리 | 직접 구현 |
+| Backup / Recovery | pg_dump 기반 단기 전략, WAL/PITR·pgBackRest 단계적 도입, 단일 DB·전체 복구 절차와 검증 쿼리 문서화 | 설계·검토 |
+| DB Observability | PostgreSQL exporter와 Grafana 환경에서 pg_up false alert, NoData·중복 알림 조건 보완 | 공동 환경의 일부 개선 |
+
+DB 객체 개수나 전체 마이그레이션 규모는 팀 범위이므로 개인 성과 수치로 사용하지 않습니다. 구축하지 않은 pgBackRest·PITR도 완료 경험처럼 쓰지 않습니다.
 
 ## Selected Projects
 
@@ -77,16 +93,23 @@ LLM이 원본 파일을 바로 수정하지 못하게 했습니다. 수정은 Pa
 
 수량 제한과 1인 1회 조건이 있는 쿠폰 도메인과 JMeter 테스트를 담당했습니다. JPA 비관적 락과 Redis 분산 락을 비교하며 중복 발급, 처리량, 응답시간을 같은 시나리오로 검증했습니다.
 
-## Why DBA & Backend Matter for AI
+## DBA Work → AI Application
 
-AI 기능이 별도 데모로 끝나지 않으려면 데이터의 출처, 최신성, 권한과 장애 시 동작이 분명해야 합니다.
+```text
+Oracle / PL/SQL 분석
+→ PostgreSQL / Liquibase 변경 관리
+→ MES SQL·프로시저·데이터 정합성
+→ RAG 지식문서·pgvector 검색
+→ MCP read-only 업무 조회
+→ 평가·배포·관측 가능한 AI application
+```
 
-- Oracle·PostgreSQL·Liquibase 경험으로 데이터 모델과 변경 이력을 추적합니다.
-- Spring Boot·MyBatis 경험으로 LLM 도구 호출을 실제 업무 API와 안전하게 연결합니다.
-- Jenkins·Ansible·Docker 경험으로 AI application을 반복 배포할 수 있게 만듭니다.
-- Grafana·OpenTelemetry 경험으로 retrieval, rerank, generation 단계의 병목과 실패를 남깁니다.
+- **스키마와 프로시저 분석**은 RAG 문서의 필수값·기본값·필터 조건을 검증하는 기준이 됐습니다.
+- **테넌트·권한 경계**는 MCP가 회사·사용자·언어 문맥을 명시적으로 전달하고 read-only API만 호출하게 만든 기준이 됐습니다.
+- **Liquibase 변경 관리** 경험은 임베딩 모델별 collection과 환경별 LLM DB 변경을 재현 가능하게 관리하는 관점으로 이어졌습니다.
+- **DB 관측과 복구 관점**은 retrieval, rerank, generation 지연과 오류를 남기고 실패 시 fallback을 설계하는 습관으로 이어졌습니다.
 
-DBA 경험은 별도 경력 장식이 아니라, AI가 읽고 답하는 데이터의 신뢰도를 지키는 기반입니다.
+DBA 경력은 과거 이력이 아니라, AI가 어떤 데이터를 왜 읽었는지 설명하고 장애 뒤에도 복구할 수 있게 만드는 현재의 기반입니다.
 
 ## How I Work
 
@@ -101,7 +124,7 @@ DBA 경험은 별도 경력 장식이 아니라, AI가 읽고 답하는 데이�
 | Area | Stack |
 | --- | --- |
 | LLM Application | Python, FastAPI, RAG, MCP, RAGAS, pgvector, BM25, hybrid retrieval, reranking, embedding, SSE |
-| Backend / Data | Java, Spring Boot, MyBatis, FreeMarker, PostgreSQL, Oracle, Liquibase, MySQL, Redis, Elasticsearch |
+| Backend / Data | Java, Spring Boot, MyBatis, FreeMarker, PostgreSQL, Oracle, PL/SQL, PL/pgSQL, Liquibase, MySQL, Redis, Elasticsearch |
 | Delivery / Observability | Docker, Jenkins, Ansible, Linux, Grafana, OpenTelemetry, Loki, Tempo, Mimir |
 | Test / Validation | pytest, JUnit 5, JMeter, golden set, retrieval evaluation, CI |
 
