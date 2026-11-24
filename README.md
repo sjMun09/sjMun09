@@ -45,16 +45,6 @@ My background is backend development and database work, so I care as much about 
 
 ---
 
-## Projects
-
-| Project | What it is | Stack |
-|---|---|---|
-| 노무히어로 ([nomuhero.com](https://nomuhero.com)) | Attendance, payroll, and employee management SaaS for small businesses. Built and operated end to end — 600+ commits, live in production, Terraform-managed infrastructure and a Jenkins build pipeline. *(private repo)* | Java, Spring Boot, PostgreSQL, Terraform, Jenkins, NCP |
-| Gout Care | Community platform for gout patients. Monorepo with a Spring Boot API, a Next.js PWA, and a local inference service; runs natively on a single host with daily `pg_dump` backups and GitHub Actions CI/CD. *(private repo)* | Java 21, Spring Boot, QueryDSL, PostgreSQL 17 + PostGIS + pgvector, Redis, Flyway |
-| [Harness](https://github.com/sjMun09/Harness) | Terminal coding-agent CLI with a read–edit–test loop and first-class support for legacy backend refactoring (XML, SQL, FreeMarker, MyBatis). | Rust |
-
----
-
 ## Engineering Principles
 
 - Ground generated answers in inspectable sources.
