@@ -34,10 +34,23 @@ My background is backend development and database work, so I care as much about 
 
 ## Selected Work
 
+| Area | What I worked on |
+| --- | --- |
+| Jenkins / Docker CI/CD | Moved image builds off the traffic-serving host after measuring build-time memory pressure, and pushed digest-pinned images to a private container registry |
+| Terraform on NCP | Managed cloud infrastructure as code with a bootstrap / modules / environments split, validated in CI before apply |
+| PostgreSQL Operations | Migrated a containerized database to a native PostgreSQL 17 install, with per-environment role separation and Liquibase-gated schema changes |
+| Observability | Ran OpenTelemetry collection into a Grafana LGTM stack (Loki, Tempo, Mimir) alongside PostgreSQL exporter metrics |
+| Backend Delivery | Built Spring Boot services with JPA, QueryDSL, and MyBatis, and shipped them through GitHub Actions pipelines with contract and schema checks |
+| AI / LLM Platform | Operated self-hosted inference and a RAG retrieval and rerank path, and exposed business data to agents through an MCP server with read-only boundaries |
+
+---
+
+## Projects
+
 | Project | What it is | Stack |
 |---|---|---|
-| 노무히어로 ([nomuhero.com](https://nomuhero.com)) | Attendance, payroll, and employee management SaaS for small businesses. Built and operated end to end — 600+ commits, live in production. *(private repo)* | Java, Spring Boot, PostgreSQL, NCP |
-| Gout Care | Community platform for gout patients — emergency guides, diet, uric-acid logs, hospital search. Monorepo with a Spring Boot API, a Next.js PWA, and a local inference service; runs natively on a single host with daily `pg_dump` backups and GitHub Actions CI/CD. *(private repo)* | Java 21, Spring Boot, QueryDSL, PostgreSQL 17 + PostGIS + pgvector, Redis, Flyway |
+| 노무히어로 ([nomuhero.com](https://nomuhero.com)) | Attendance, payroll, and employee management SaaS for small businesses. Built and operated end to end — 600+ commits, live in production, Terraform-managed infrastructure and a Jenkins build pipeline. *(private repo)* | Java, Spring Boot, PostgreSQL, Terraform, Jenkins, NCP |
+| Gout Care | Community platform for gout patients. Monorepo with a Spring Boot API, a Next.js PWA, and a local inference service; runs natively on a single host with daily `pg_dump` backups and GitHub Actions CI/CD. *(private repo)* | Java 21, Spring Boot, QueryDSL, PostgreSQL 17 + PostGIS + pgvector, Redis, Flyway |
 | [Harness](https://github.com/sjMun09/Harness) | Terminal coding-agent CLI with a read–edit–test loop and first-class support for legacy backend refactoring (XML, SQL, FreeMarker, MyBatis). | Rust |
 
 ---
