@@ -14,7 +14,7 @@ My background is backend development and database work, so I care as much about 
 - Domain modeling and REST API design with **Java / Spring Boot**, MyBatis and JPA side by side.
 - Schema design, query tuning, and versioned migrations on **PostgreSQL** and **Oracle** (Liquibase).
 - Caching and search as part of the data layer: **Redis**, **Elasticsearch**.
-- Production service ownership, not just feature delivery — see [nomuhero.com](https://nomuhero.com).
+- Owning a service in production, not just shipping features — deployment, backup, monitoring, and incident recovery included.
 
 ### AI / AX
 
