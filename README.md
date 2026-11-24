@@ -1,4 +1,4 @@
-# Moonseongjun (문성준)
+# Munseongjun (문성준)
 
 **Backend Engineer** · Java · Spring Boot · PostgreSQL
 
@@ -36,10 +36,9 @@ My background is backend development and database work, so I care as much about 
 
 | Project | What it is | Stack |
 |---|---|---|
+| 노무히어로 ([nomuhero.com](https://nomuhero.com)) | Attendance, payroll, and employee management SaaS for small businesses. Built and operated end to end — 600+ commits, live in production. *(private repo)* | Java, Spring Boot, PostgreSQL, NCP |
+| Gout Care | Community platform for gout patients — emergency guides, diet, uric-acid logs, hospital search. Monorepo with a Spring Boot API, a Next.js PWA, and a local inference service; runs natively on a single host with daily `pg_dump` backups and GitHub Actions CI/CD. *(private repo)* | Java 21, Spring Boot, QueryDSL, PostgreSQL 17 + PostGIS + pgvector, Redis, Flyway |
 | [Harness](https://github.com/sjMun09/Harness) | Terminal coding-agent CLI with a read–edit–test loop and first-class support for legacy backend refactoring (XML, SQL, FreeMarker, MyBatis). | Rust |
-| [MES Document MCP](https://github.com/sjMun09/MES-mcp) | MCP server and CLI that turns Excel, PDF, Word, Markdown, and CSV files into source-traceable document data. Every write goes through proposed patch → dry run → approval → validation. | Python |
-| [transfrom-kr](https://github.com/sjMun09/transfrom-kr) | AI translation platform for technical docs — preserves code blocks and Markdown structure. Markdown, URL, PDF, and YouTube/Udemy subtitle translation plus a Chrome extension. | Next.js, TypeScript, Supabase, Anthropic SDK |
-| 노무히어로 ([nomuhero.com](https://nomuhero.com)) | Attendance, payroll, and employee management SaaS for small businesses. Built and operated end to end. *(private repo)* | Java, Spring Boot, PostgreSQL, NCP |
 
 ---
 
@@ -57,8 +56,8 @@ My background is backend development and database work, so I care as much about 
 | Area | Tools |
 |---|---|
 | **Languages** | Java, Python, TypeScript, Rust, SQL |
-| **Backend** | Spring Boot, MyBatis, JPA, FastAPI, Next.js |
-| **Data** | PostgreSQL, Oracle, Redis, Elasticsearch, Liquibase, pgvector |
+| **Backend** | Spring Boot, JPA, QueryDSL, MyBatis, Spring Security, FastAPI, Next.js |
+| **Data** | PostgreSQL, Oracle, Redis, Elasticsearch, Flyway, Liquibase, pgvector, PostGIS |
 | **AI / LLM** | RAG, hybrid retrieval, reranking, MCP, Anthropic SDK |
 | **Infra** | Docker, Jenkins, Ansible, Prometheus, Grafana, OpenTelemetry, NCP |
 
